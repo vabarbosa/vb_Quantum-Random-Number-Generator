@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[67]:
-
-
 import numpy as np
 from qiskit import *
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -27,40 +24,5 @@ for i in range(num_of_bits):
     
 print((recorded_response))
 
-
-# In[66]:
-
-
 res = int("".join(str(int(x)) for x in recorded_response), 2) 
 print(res)
-
-
-# In[101]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
